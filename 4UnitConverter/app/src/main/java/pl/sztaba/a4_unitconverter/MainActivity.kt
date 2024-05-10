@@ -81,7 +81,7 @@ fun UnitConverter() {
         OutlinedTextField(
             value = inputValue,
             onValueChange = { inputValue = it
-                            convertUnits()},
+                convertUnits()},
             label = {Text("Enter value")}
             )
         Spacer(modifier = Modifier.height(16.dp))
